@@ -1,0 +1,3 @@
+/infra/ @WuraLab/infra
+/projects/ghost/ @WuraLab/ghost
+/projects/ghost/ @WuraLab/sentry
