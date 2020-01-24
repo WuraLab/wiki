@@ -46,29 +46,19 @@ We also need to setup and activate Python2 virtual environment
 
     virtualenv venv 
 
->you can use any name insted of **venv**
+>you can use any name instead of **.venv**
 
-### You can also use a Python interpreter of your choice
-
-    virtualenv -p /usr/bin/python2.7 venv
+### Create virtualenv using Python2
+    python2 -m virtualenv .venv
   
 ### Active your virtual environment:    
     
     source venv/bin/activate
-    
-### Using fish shell:    
-    
-    source venv/bin/activate.fish
+
 
 ### To deactivate:
 
     deactivate
-
-### Create virtualenv using Python3
-    virtualenv -p python3 myenv
-
-### Instead of using virtualenv you can use this command in Python3
-    python3 -m venv myenv
 
 Run the following to install the Python and JavaScript libraries and database services that Sentry depends on and some extra pieces that hold the development environment together:
 
