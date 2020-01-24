@@ -5,7 +5,7 @@ You need to have nvm, Curl, NodeJS and npm installed
 `$ sudo apt-get install curl`
 
 Next, install `nvm` by running
-`
+
 ## download and run the installation script
 `$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash`
 ## store the path to nvm
