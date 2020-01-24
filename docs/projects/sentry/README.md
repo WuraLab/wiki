@@ -7,12 +7,11 @@ You need to have nvm, Curl, NodeJS and npm installed
 Next, install `nvm` by running
 `
 ## download and run the installation script
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+`$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash`
 ## store the path to nvm
-$ export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
+`$ export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"`
 ## load nvm
-$ [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-`
+`$ [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"`
 
 Verify that `nvm` is installed by running
 `$ nvm -v`
