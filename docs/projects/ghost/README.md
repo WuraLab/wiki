@@ -28,32 +28,32 @@ git clone --recurse-submodules git@github.com:TryGhost/Ghost && cd Ghost
 
 ## 6.  **Properly rename your references**
 
-<!--  Rename origin to upstream-->
+  *Rename origin to upstream*
 
 ```
  git remote rename origin upstream
 ```
 
-<!-- Add your fork as an origin, editing in <YourUsername>  -->
+ *Add your fork as an origin, editing in <YourUsername>*
 
 ```
 git remote add origin git@github.com:<YourUsername>/Ghost.git
 
 ```
 
-​	 <!-- Switch to Ghost-Admin dir --> 
+​	*Switch to Ghost-Admin dir*
 
 ```
   cd core/client
 ```
 
- <!-- Quick check that everything is on latest -->
+*Quick check that everything is on latest*
 
 ```
 git checkout master && git pull upstream master
 ```
 
-<!-- Then return to Ghost root directory --> 
+*Then return to Ghost root directory*
 
 ```
 cd ../../
@@ -63,7 +63,7 @@ cd ../../
 
 The setup task will install dependencies, initialise the database, set up git hooks & initialise submodules and run a first build of the admin. The very first build generally takes a while.
 
-<!--Only ever run this once-->
+*Only ever run this once*
 
 ```
  yarn setup
@@ -71,7 +71,7 @@ The setup task will install dependencies, initialise the database, set up git ho
 
 ## 8. Start Ghost 
 
-<!--Run Ghost in development mode  -->
+*Run Ghost in development mode*
 
 ```
 grunt dev
