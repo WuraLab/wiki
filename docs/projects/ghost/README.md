@@ -41,7 +41,7 @@ git remote add origin git@github.com:<YourUsername>/Ghost.git
 
 ```
 
-​	*Switch to Ghost-Admin dir*
+#### 	*Switch to Ghost-Admin dir*
 
 ```
   cd core/client
@@ -55,7 +55,7 @@ git remote add origin git@github.com:<YourUsername>/Ghost.git
   git remote rename origin upstream
 
 ```
-​
+
 *Add your fork as an origin, change <username> to your username*
 
 ```
